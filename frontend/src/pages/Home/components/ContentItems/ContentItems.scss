@@ -1,0 +1,35 @@
+.filtros{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;  
+    margin-top: 1vh;
+
+    .categoria{
+        display: flex;
+        a{
+            text-decoration: none;
+            padding: 5px 8px;
+            color: rgb(102, 102, 102);
+            border: 1px solid rgb(102, 102, 102);
+            border-left: none;
+
+            &:hover{
+                background-color: rgb(240, 240, 240);
+            }
+        }
+
+        a:first-child{
+            border: 1px solid rgb(102, 102, 102);
+            border-radius: 0.3rem 0 0 0.3rem;
+        }
+
+        a:last-child{
+            border: 1px solid rgb(102, 102, 102);
+            border-left: none;
+            border-radius: 0 0.3rem 0.3rem 0;
+        }
+    }
+    
+
+}

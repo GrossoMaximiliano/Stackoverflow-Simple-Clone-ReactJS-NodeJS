@@ -1,0 +1,31 @@
+.preguntaspopulares
+{
+    
+    width: 20vw !important;
+    font-size: 13px;
+
+    h1{
+        font-size: 18px;
+        text-align: center;
+        font-weight: 500;
+    }
+    
+    ul,li{
+        margin-top: 0.5rem;
+        list-style: none;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+
+
+
+@media ( max-width: 814px ){
+    .preguntaspopulares
+    {
+        width: 90% !important;
+        margin: 0;
+        padding: 0;
+    }
+}

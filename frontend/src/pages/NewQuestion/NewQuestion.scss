@@ -1,0 +1,69 @@
+body{
+    background-color: #EFF0F1;
+}
+
+h1{
+    margin-left: 3.6vw;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+}
+
+.newQuestionContent
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+
+    .camposacompletar{
+        background-color: white;
+        border-radius: 0.3rem;
+        box-shadow: 1px 3px 6px rgba(0,0,0,0.06);
+        padding: 1vh 1.5vw;
+
+        h2{
+            font-size: 1rem;
+            letter-spacing: 0.1px;
+            font-weight: 620;
+        }
+
+        p
+        {
+            font-size: 0.9rem;
+            letter-spacing: 0.6px;
+        }
+
+        input {
+            width: 80vw;
+            height: 22px;
+        }
+
+        textarea {
+            width: 80vw;
+            min-height: 120px;
+            resize: none;
+        }
+
+        hr{
+            margin-top: 12px;
+        }
+
+        .tag {
+            &:hover{
+                background-color: rgb(199, 71, 71);
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+
+
+}
+
+@media ( max-width: 500px )
+{
+    body{
+        text-align: center;
+    }
+
+}

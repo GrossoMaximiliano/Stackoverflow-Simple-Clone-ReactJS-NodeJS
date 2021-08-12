@@ -1,0 +1,20 @@
+._contenido{
+    width: 60vw !important;
+   
+    h3{
+        padding: 0 2vw;
+    }
+}
+
+
+@media ( max-width: 814px ){
+    ._contenido{
+        width: 90% !important;
+    
+        .cabezera{
+            h2{
+                width: 100% !important;
+            }
+        }
+    }
+}
