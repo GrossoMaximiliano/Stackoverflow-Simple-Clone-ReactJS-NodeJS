@@ -63,3 +63,13 @@
     }
 
 }
+
+
+@media ( max-width: 500px )
+{
+    .cabezera{
+		.titulo {
+			flex-direction: column;
+		}
+    }
+}
