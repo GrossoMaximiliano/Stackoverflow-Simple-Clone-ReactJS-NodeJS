@@ -13,7 +13,7 @@ export default function NewComment({id, Replies, setReplies })
         e.preventDefault();
 
         const token = localStorage.getItem('token');
-        if ( !token ) return RedirectURL = "http://localhost:4000/login";
+        if ( !token ) return RedirectURL = "/login";
         let fetchBody = {
             Content: Commentary.current.value, 
             questionId: id
