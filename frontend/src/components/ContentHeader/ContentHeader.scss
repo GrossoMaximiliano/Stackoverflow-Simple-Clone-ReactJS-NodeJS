@@ -64,12 +64,15 @@
 
 }
 
-
 @media ( max-width: 500px )
 {
     .cabezera{
 		.titulo {
 			flex-direction: column;
+		}
+		
+		.info{
+			margin-top: 0;
 		}
     }
 }

@@ -24,7 +24,7 @@ export default function NewQuestion()
         }
         
         setSending(true);
-        const res = await fetch("http://localhost:4000/addquestion", {
+        const res = await fetch("http://simpleclonstackoverflowbackend.herokuapp.com/addquestion", {
             headers:{
                 'Content-Type': 'application/json',
                 'authorization': `bearer ${token}`

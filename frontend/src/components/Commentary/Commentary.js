@@ -13,11 +13,11 @@ const Commentary = ({isCreator = false, questionId, Descripcion, Timestamp = 0, 
             if ( Option !== alreadyVoted ) {
                 setVotes( Option === "+" ? Votes+2 : Votes-2 );
                 setVoted(Option);
-                await authService.FetchPost("http://localhost:4000/addvote", data );
+                await authService.FetchPost("https://simpleclonstackoverflowbackend.herokuapp.com/addvote", data );
             }
         }
         else {
-            await authService.FetchPost("http://localhost:4000/addvote", data );
+            await authService.FetchPost("https://simpleclonstackoverflowbackend.herokuapp.com/addvote", data );
             setVoted(Option);
             setVotes( Option === "+" ? Votes+1 : Votes-1 );
         }

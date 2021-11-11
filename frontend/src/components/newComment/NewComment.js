@@ -18,7 +18,7 @@ export default function NewComment({id, Replies, setReplies })
             Content: Commentary.current.value, 
             questionId: id
         }
-        const {res} = await authService.FetchPost("http://localhost:4000/addcomentary", fetchBody);
+        const {res} = await authService.FetchPost("https://simpleclonstackoverflowbackend.herokuapp.com/addcomentary", fetchBody);
 
         setReplies( replies => ([...replies, res]));
     }
